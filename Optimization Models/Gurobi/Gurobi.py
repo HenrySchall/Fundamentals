@@ -1,3 +1,5 @@
+# pip install gurobipy
+# License Key grbgetkey 6b409973-a9d4-42f8-86ef-0bca3652fa1d
 import gurobipy as gp
 
 #################
