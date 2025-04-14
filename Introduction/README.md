@@ -1,4 +1,4 @@
-# Data Science Guide
+# Introduction Data Science and Data Analyst
 
 ![417407965-f93fdc0d-5d9a-4406-b9ca-dc4d2ca48452](https://github.com/user-attachments/assets/abc5ddda-ece0-4cba-846c-e755920e2264)
 
