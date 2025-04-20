@@ -1,62 +1,24 @@
-library(httpgd)
-library(languageserver)
-library(purrr)
-library(magrittr)
-library(rio)      
-library(timetk)   
-library(dplyr) 
-library(tidyverse)   
-library(tidyr)    
-library(ggplot2) 
-library(readr)
-library(readxl)
-library(forecast)
-library(zoo)
-library(lubridate)
-library(quantmod)
-library(dygraphs)
-library(tseries)
-library(Quandl)
-library(discreteRV)
-library(aTSA)
-library(fGarch)
-library(fUnitRoots)
-library(forecast)
-library(vars)
-library(MTS)
-library(seasonal)
-library(stats)
+########################
+### Install Packages ###
+########################
+
+packages <- c("magrittr","httpgd","mFilter","BCDating","rio","timetk","pdftools","textdata","tm",
+"tidytext","dplyr","tidyverse","tidyr","ggplot2","readr","readxl","forecast","zoo","lubridate",
+"ipeadatar","sidrar","GetBCBData","PNADcIBGE","survey","dygraphs","tseries","quantmod",
+"Quandl","discreteRV","aTSA","fGarch","fUnitRoots","vars","MTS","seasonal","stats","nortest",
+"scales","urca","dlm","seasonalview","stringr","fma","languageserver","PerformanceAnalytics",
+"jsonlite","purrr","curl)")
+
+packages_install <- packages [!packages %in% installed.packages()[,"Package"]]
+if(length(packages_install) > 0)
+{install.packages(packages_install)} else {message("Todos os pacotes já estão instalados.")}
+
+#####################
+### Load Packages ### 
+#####################
+
+lapply(packages, library, character.only = TRUE)
 
 #################
 ## Estatística ##
 #################
-~
-if(!require(TeachingDemos)){install.packages("TeachingDemos")}
-if(!require(EnvStats)){install.packages("EnvStats")}
-if(!require(xtable)){install.packages("xtable")}
-if(!require(stargazer)){install.packages("stargazer")}
-if(!require(highcharter)){install.packages("highcharter")}
-if(!require(quantmod)){install.packages("quantmod")}
-if(!require(dygraphs)){install.packages("dygraphs")}
-if(!require(tseries)){install.packages("tseries")}
-if(!require(Quandl)){install.packages("Quandl")}
-if(!require(nycflights13)){install.packages("nycflights13")}
-if(!require(discreteRV)){install.packages("discreteRV")}
-if(!require(aTSA)){install.packages("aTSA")}
-if(!require(fGarch)){install.packages("fGarch")}
-if(!require(fUnitRoots)){install.packages("fUnitRoots")}
-if(!require(vars)){install.packages("vars")}
-if(!require(MTS)){install.packages("MTS")}
-if(!require(seasonal)){install.packages("seasonal")}
-if(!require(urca)){install.packages("urca")}
-if(!require(dynlm)){install.packages("dynlm")}
-if(!require(tbl2xts)){install.packages("tbl2xts")}
-if(!require(dlm)){install.packages("dlm")}
-if(!require(stats)){install.packages("stats")}
-if(!require(tcltk)){install.packages("tcltk")}
-if(!require(PerformanceAnalytics)){install.packages("PerformanceAnalytics")}
-if(!require(nortest)){install.packages("nortest")}
-if(!require(scales)){install.packages("scales")}
-if(!require(seasonalview)){install.packages("seasonalview")}
-if(!require(stringr)){install.packages("stringr")}
-if(!require(fma)){install.packages("fma")}
