@@ -2,6 +2,8 @@
 
 ![417407965-f93fdc0d-5d9a-4406-b9ca-dc4d2ca48452](https://github.com/user-attachments/assets/abc5ddda-ece0-4cba-846c-e755920e2264)
 
+https://alpaca.markets/
+
 > Data science is an interdisciplinary field that uses methods, algorithms, processes, and systems to extract knowledge and insights from structured and unstructured data. It involves a combination of statistics, machine learning, data analysis, computing, and domain-specific knowledge to solve problems and make data-driven decisions.
 
 Key data science activities include:
