@@ -1,1 +1,1 @@
-# Basics Data Science
+# Basics of Data Science
