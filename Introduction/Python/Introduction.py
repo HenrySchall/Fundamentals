@@ -112,6 +112,7 @@ print(f"Média: {media}")
 
 # Substituir os valores pela média da coluna 'Sales'
 df.loc[35, 'Sales'] = 3543.527771633722
+df.loc[216, 'Sales'] = 3543.527771633722
 df.loc[473, 'Sales'] = 3543.527771633722
 df.loc[515, 'Sales'] = 3543.527771633722
 df.loc[877, 'Sales'] = 3543.527771633722
@@ -119,11 +120,17 @@ df.loc[877, 'Sales'] = 3543.527771633722
 # Substituir os valores pela média da coluna 'TV_Spend'
 df.loc[177, 'TV_Spend'] = 5139.619781506285
 df.loc[386, 'TV_Spend'] = 5139.619781506285
-df.loc[786, 'TV_Spend'] = 5139.619781506285
+df.loc[768, 'TV_Spend'] = 5139.619781506285
 
 # Verificando
 df.iloc[35]
 df.iloc[177]
+
+plt.hist(x = df['Sales'])
+plt.show()
+
+plt.hist(x = df['TV_Spend'])
+plt.show()
 
 ### Logaritmizar
 # Deve-se logaritmizar, quando:
@@ -149,6 +156,61 @@ df['TV_Spend'].skew() # Simetrica
 df['Radio_Spend'].skew() # Simetrica
 df['OOH_Spend'].skew() # Simetrica
 df['Competitor_Price'].skew() # Simetrica
+
+####################################
+### Alteração de Inconsistências ###
+####################################
+
+df[df["Promo_Flag"] == "yes"]
+df['Promo_Flag'] = df['Promo_Flag'].replace({'yes': 1})
+
+df.head(10)
+
+df[df["Region"] == "nort"]
+df['Region'] = df['Region'].replace({'nort': "North"})
+
+df[df["Region"] == "southh"]
+df[df["Region"] == "southh"]
+
+df[df["Region"] == "southh"]
+df.count()
+
+#########################
+### Análise dos Dados ###
+#########################
+
+# Multicolinearidade
+corr = df.corr(numeric_only=True)
+plt.style.use('dark_background')
+plt.figure(figsize=(12, 10))
+
+sns.heatmap(
+    corr,
+    annot=True,
+    fmt=".2f",
+    cmap="seismic",
+    linewidths=1.0,
+    linecolor='gray',
+    cbar=True,
+    square=True,
+    annot_kws={"color": "white"},
+    mask=corr.isnull()
+)
+
+plt.show()
+
+plt.title('Matriz de Correlação')
+plt.show()
+
+# Dispersão
+grafico = px.scatter_matrix(df, dimensions=['Sales', 'TV_Spend', 'Radio_Spend', 'Digital_Spend', 'OOH_Spend', 'Competitor_Price'], color = 'Sales')
+grafico.update_layout(
+    width=1200,
+    height=900,
+    plot_bgcolor='black',
+    paper_bgcolor='black',
+    font_color='white')
+grafico.show()
 
 # Exportar Excel
 df.to_excel('marketing_dataset_tratado.xlsx', index=False)
