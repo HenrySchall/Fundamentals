@@ -31,11 +31,11 @@ from scipy.stats import skew
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.tools.tools import add_constant
 
-############################
-### Análise Exploratória ###
-############################
+######################################
+### Análise Exploratória dos Dados ###
+######################################
 
-df = pd.read_csv("https://drive.google.com/uc?export=download&id=1wMapByTvMFt16zz9Bd2643eTHJXtEhnX")
+df = pd.read_csv("https://drive.google.com/uc?export=download&id=1Xa631th1GeU4OVmGW33UckDWJgj5E8VL")
 df
 
 df.describe()
@@ -57,9 +57,9 @@ df.count()
 # df = df.dropna(subset=['Sales']) 
 
 # Substituindo pela Média
-# df['TV_Spend'] = df['TV_Spend'].fillna(df['TV_Spend'].mean())
-# df['Radio_Spend'] = df['Radio_Spend'].fillna(df['Radio_Spend'].mean())
-# df['Sales'] = df['Sales'].fillna(df['Sales'].mean())
+df['TV_Spend'] = df['TV_Spend'].fillna(df['TV_Spend'].mean())
+df['Radio_Spend'] = df['Radio_Spend'].fillna(df['Radio_Spend'].mean())
+df['Sales'] = df['Sales'].fillna(df['Sales'].mean())
 
 # Substituindo pela Meridiana
 # df['TV_Spend'] = df['TV_Spend'].fillna(df['TV_Spend'].median())
@@ -69,3 +69,64 @@ df.count()
 df.count()
 
 # Tratando Outliers 
+
+plt.hist(x = df['Sales'])
+plt.show()
+
+plt.hist(x = df['TV_Spend'])
+plt.show()
+
+plt.hist(x = df['Radio_Spend'])
+plt.show()
+
+plt.hist(x = df['Digital_Spend'])
+plt.show()
+
+plt.hist(x = df['OOH_Spend'])
+plt.show()
+
+plt.hist(x = df['Competitor_Price'])
+plt.show()
+
+plt.hist(x = df['Promo_Flag'])
+plt.show()
+
+plt.hist(x = df['Region'])
+plt.show()
+
+df[df["Sales"] >= 10000]
+df[df["TV_Spend"] >= 20000]
+
+media = df['Sales'].mean()
+print(f"Média: {media}")
+# 3543.527771633722
+
+media = df['TV_Spend'].mean()
+print(f"Média: {media}")
+# 5139.619781506285
+
+# Substituir os valores pela média da coluna 'Sales'
+df.loc[35, 'Sales'] = 3543.527771633722
+df.loc[473, 'Sales'] = 3543.527771633722
+df.loc[515, 'Sales'] = 3543.527771633722
+df.loc[877, 'Sales'] = 3543.527771633722
+
+# Substituir os valores pela média da coluna 'TV_Spend'
+df.loc[177, 'TV_Spend'] = 5139.619781506285
+df.loc[386, 'TV_Spend'] = 5139.619781506285
+df.loc[786, 'TV_Spend'] = 5139.619781506285
+
+# Verificando
+df.iloc[35]
+df.iloc[177]
+
+# Exportar Excel
+df.to_excel('marketing_dataset_tratado.xlsx', index=False)
+
+# Exportar Excel
+# from google.colab import files
+# df.to_excel('tratamento.xlsx', index=False)
+# files.download('tratamento.xlsx')
+
+# Exportar CSV
+df.to_csv('marketing_dataset_tratado.csv', index=False)
