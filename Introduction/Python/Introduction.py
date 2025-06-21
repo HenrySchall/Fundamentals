@@ -42,7 +42,10 @@ df.describe()
 
 df.dtypes
 
-# Presença de Valores Nulos
+#################################
+### Presença de Valores Nulos ###
+#################################
+
 # - Eliminando Valores
 # - Substituir pela Média
 # - Substituir pela Mediana (Caso os dados não sejam assimétricos)
@@ -68,7 +71,9 @@ df['Sales'] = df['Sales'].fillna(df['Sales'].mean())
 
 df.count()
 
-# Tratando Outliers 
+#########################
+### Tratando Outliers ###
+#########################
 
 plt.hist(x = df['Sales'])
 plt.show()
@@ -120,10 +125,35 @@ df.loc[786, 'TV_Spend'] = 5139.619781506285
 df.iloc[35]
 df.iloc[177]
 
+### Logaritmizar
+# Deve-se logaritmizar, quando:
+# - Dados estão em ordem de magnitude diferente (escala muito grande)
+# - Distribuição assimétrica à direita. Exemplo: Faturamento, preços, população, PIB
+# - Relações são multiplicativas e não aditivas, ou seja, o efeito de uma variável cresce proporcionalmente, não de forma linear. Exemplo: elasticidade → interpretar "um aumento percentual em X gera um aumento percentual em Y
+
+# Técnicas
+# 1) Análise de Skewness (assimetria)
+#   • Entre -0.5 e +0.5 = Distribuição aproximadamente simétrica (Não precisa logaritimizar)
+#   • Entre ±0.5 e ±1 = Assimetria moderada (Avaliar log, opcional)
+#   • Maior que +1 ou menor que -1 = Forte assimetria (Recomenda-se logaritmizar)
+
+# 2) Teste Estátisticos: Shapiro-Wilk, Kolmogorov-Smirnov, Anderson-Darling, Teste de normalidade conjunta.
+
+# Não se deve Logaritmizar, quando:
+# - Dados possuem valores zero ou negativos (logaritmo não existe para isso).
+# - Relação entre variáveis é naturalmente linear.
+# - Interpretação percentual não faz sentido para aquele contexto.
+
+df['Sales'].skew() # Simetrica
+df['TV_Spend'].skew() # Simetrica
+df['Radio_Spend'].skew() # Simetrica
+df['OOH_Spend'].skew() # Simetrica
+df['Competitor_Price'].skew() # Simetrica
+
 # Exportar Excel
 df.to_excel('marketing_dataset_tratado.xlsx', index=False)
 
-# Exportar Excel
+# Exportar Excel/CSV Juypter Notebook
 # from google.colab import files
 # df.to_excel('tratamento.xlsx', index=False)
 # files.download('tratamento.xlsx')

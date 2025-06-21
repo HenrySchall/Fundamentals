@@ -4,6 +4,16 @@
 
 > Python is a programming language created by Guido van Rossum, a Dutch programmer, in 1991. Guido van Rossum created the language with the goal of developing simple, intuitive and easy-to-learn programming, without sacrificing the ability to solve complex problems. The name "Python" was inspired by the British comedy group "Monty Python", of which van Rossum was a fan.
 
+
+| Tipo de Modelo | Equação                                        | Interpretação                                   |
+| -------------- | ---------------------------------------------- | ----------------------------------------------- |
+| **Linear**     | $Y = \beta_0 + \beta_1 X + \epsilon$           | Variação absoluta de X → variação absoluta em Y |
+| **Log-Linear** | $\ln(Y) = \beta_0 + \beta_1 X + \epsilon$      | 1 unidade em X → mudança percentual em Y        |
+| **Linear-Log** | $Y = \beta_0 + \beta_1 \ln(X) + \epsilon$      | 1% em X → mudança absoluta em Y                 |
+| **Log-Log**    | $\ln(Y) = \beta_0 + \beta_1 \ln(X) + \epsilon$ | **Elasticidade:** 1% em X → β1% em Y            |
+
+
+
 ### Setting up Python for use in Visual Studio Code
 
 ```
