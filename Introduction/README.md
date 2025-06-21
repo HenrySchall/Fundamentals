@@ -2,6 +2,10 @@
 
 https://alpaca.markets/
 
+Ciência de dados
+- https://www.coursera.org/specializations/jhu-data-science 
+- https://www.coursera.org/specializations/statistics-with-python 
+
 > Data science is an interdisciplinary field that uses methods, algorithms, processes, and systems to extract knowledge and insights from structured and unstructured data. It involves a combination of statistics, machine learning, data analysis, computing, and domain-specific knowledge to solve problems and make data-driven decisions.
 
 Key data science activities include:
