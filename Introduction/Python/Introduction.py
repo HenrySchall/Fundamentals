@@ -26,6 +26,10 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import plotly.express as px
+import tensorflow as tf
+import tensorflow_probability as tfp
+import arviz as az
+import IPython
 from matplotlib.colors import LinearSegmentedColormap
 from scipy.stats import skew 
 from statsmodels.stats.outliers_influence import variance_inflation_factor
@@ -215,10 +219,10 @@ grafico.show()
 # Exportar Excel
 df.to_excel('marketing_dataset_tratado.xlsx', index=False)
 
+# Exportar CSV
+df.to_csv('marketing_dataset_tratado.csv', index=False)
+
 # Exportar Excel/CSV Juypter Notebook
 # from google.colab import files
 # df.to_excel('tratamento.xlsx', index=False)
 # files.download('tratamento.xlsx')
-
-# Exportar CSV
-df.to_csv('marketing_dataset_tratado.csv', index=False)
