@@ -1,5 +1,8 @@
 3. Estatística
 
+![435421892-c617cbb7-1da9-4b94-b583-e98f2ae674a0](https://github.com/user-attachments/assets/921125c3-b915-426d-8448-17473013a51c)
+
+
 > A estatística é definda como a ciência que objetiva coletar, organizar, analisar e interpretar dados. Ela é dividida em 3 partes:
 
 Descritiva é aquela relacionada a descrição dos dados, representada pelas medidas de: centralidade (Média, moda e mediana), posição (Amplitude e Quartis), dispersão (Variância e Desvio Padrão).
