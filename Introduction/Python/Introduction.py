@@ -12,7 +12,7 @@ def install_packages(pacotes):
 # List of packages
 packages_list = ["numpy", "pandas", "matplotlib", "scipy", "seaborn","statsmodels", "plotly", "gurobipy",
 "yfinance", "scikit-learn", "panel", "datashader", "param", "colorcet", "transformers","einops","accelerate", 
-"bitsandbytes"]
+"bitsandbytes", "openpyxl"]
 
 install_packages(packages_list)
 
@@ -217,10 +217,10 @@ grafico.update_layout(
 grafico.show()
 
 # Exportar Excel
-df.to_excel('marketing_dataset_tratado.xlsx', index=False)
+df.to_excel("marketing_dataset_tratado.xlsx", index=False, engine='openpyxl')
 
 # Exportar CSV
-df.to_csv('marketing_dataset_tratado.csv', index=False)
+df.to_csv("marketing_dataset_tratado.csv", index=False, encoding="utf-8")
 
 # Exportar Excel/CSV Juypter Notebook
 # from google.colab import files
