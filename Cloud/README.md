@@ -12,6 +12,7 @@
 
 ### Conceitos Importantes
 - Data Warehouse
-- DataOps (Data + Operations)
-- MLOps (Machine Learning + Operations)
-- DevOps (Development + Operations)
+- DataOps (Data + Operations). Exemplos: Apache Airflow,
+- MLOps (Machine Learning + Operations). Exemplo: MLflow, Kubeflow, SageMaker
+- DevOps (Development + Operations). Exemplos: Docker, Kubernetes, GitLab CI/CD
+- RevOps 
