@@ -16,6 +16,8 @@ Key data science activities include:
 - Data visualization: Creating charts and dashboards to communicate insights in a clear and accessible way.
 - Data-driven decision making: Using the results of analysis to support business or research decisions.
 
+Pesquisa Tic Domicilios
+
 ## Data Types
 Qualitative (non-numeric attributes).
 - Nominal: Denominations (colors, gender, race, titles, etc.)
