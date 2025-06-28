@@ -6,7 +6,7 @@
 - Vertex AI -> Treinar e hopedar modelos de Machineee Learning.
 - Cloud SQL -> Criar Banco de Dados.
 - Big Query -> Analisar e Gerenciar dados.
-- Kubernetes -> Criar Clusters (Hadoop, Spark, Kubernetes).
+- Dataproc -> Criar Clusters (Hadoop, Spark, Kubernetes).
 - Text-to-Speech -> Converter texto em voz
 - Speech-to-Text -> Converter voz em texto
 - Cloud Vision -> Detectar objetos em imagens.
