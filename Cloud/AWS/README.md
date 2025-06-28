@@ -9,3 +9,4 @@
 - Quicksight
 - Bedrock
 - Forecast
+- DynamoDB
