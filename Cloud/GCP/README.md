@@ -21,4 +21,18 @@
 ![Img_1](https://github.com/user-attachments/assets/97261076-45b9-4aba-af90-29d9a24ea674)
 
 ## Big Query
-> BigQuery é um serviço da Google Cloud que funciona como um data warehouse na nuvem
+> BigQuery é um serviço da Google Cloud que funciona como um data warehouse na nuvem, ou seja, armazena grandes volumes de dados organizados.
+
+### Realizando Consultas
+
+```
+Select *
+From 'caminho.x.y'
+  limite 10
+```
+
+```
+SELECT DISTINCT
+  First-nome
+  from
+```
