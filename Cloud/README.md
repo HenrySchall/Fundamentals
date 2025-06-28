@@ -16,3 +16,5 @@
 - MLOps (Machine Learning + Operations). Exemplo: MLflow, Kubeflow, SageMaker
 - DevOps (Development + Operations). Exemplos: Docker, Kubernetes, GitLab CI/CD
 - RevOps 
+
+### Repository Bibliographic References:
