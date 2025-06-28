@@ -8,11 +8,15 @@
 - Google Cloud Platform (GCP)
 - IBM Cloud
 - Oracle Cloud
-- Sas Cloud
+- SAS Cloud
 
 ### Conceitos Importantes
-- Data Warehouse
-- DataOps (Data + Operations). Exemplos: Apache Airflow,
-- MLOps (Machine Learning + Operations). Exemplo: MLflow, Kubeflow, SageMaker
-- DevOps (Development + Operations). Exemplos: Docker, Kubernetes, GitLab CI/CD
-- RevOps 
+- Data Warehouse -> Sistemas de armazenamento centralizado que reúne todos os dados de uma empresa, organizando-os para facilitar consultas e análises complexas. Exemplo: Google BigQuery, Amazon Redshift, Snowflake
+
+- DataOps (Data + Operations) -> conjunto de práticas para gerenciar e automatizar o ciclo de vida dos dados. Exemplos: Apache Airflow,
+
+- MLOps (Machine Learning + Operations) -> Conjunto de práticas para desenvolver, implementar e manter de modelos de machine learning (ML). Exemplo: MLflow, Kubeflow, SageMaker, VertexAI
+
+- DevOps (Development + Operations) -> Conjunto de práticas para integrar desenvolvimento de software (Dev) com operações/infraestrutura (Ops). Exemplos: Docker, Kubernetes, GitLab CI/CD
+
+- RevOps -> Maximizar e acelerar a geração de receita da empresa, criando processos mais previsíveis, eficientes e baseados em dados. Exemplos: Salesforce, HubSpot
