@@ -27,8 +27,7 @@
 
 ```
 Select *
-From 'caminho.x.y'
-  limite 10
+From 'projeto.conjunto_de_dados.tabela' -- LIMIT 10
 ```
 
 ```
