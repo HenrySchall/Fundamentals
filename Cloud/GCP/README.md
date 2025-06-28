@@ -15,4 +15,4 @@
 - Cloud Run
 - Cloud Storage 
 
-![Captura de tela 2025-06-28 152508](https://github.com/user-attachments/assets/460333a3-ed80-4256-864f-9fb071181a0e)
+![Img_1](https://github.com/user-attachments/assets/97261076-45b9-4aba-af90-29d9a24ea674)
