@@ -35,3 +35,67 @@ SELECT DISTINCT
   First-nome
   from
 ```
+#### Funções de Restrições
+
+#### Função Join
+
+```
+SELECT
+SKU
+
+FROM 'JOIN.Vendas'
+GROUP BY SKU
+```
+
+```
+SELECT
+Vendedor
+COUNT(Quantidade_vendida) as Vendas
+
+FROM 'JOIN.Vendas'
+GROUP BY Vendedor 
+```
+
+```
+SELECT
+Filial
+COUNT(Quantidade_vendida) as Vendas_filial
+
+FROM 'JOIN.Vendas'
+GROUP BY Filial
+```
+
+#### Funções de Agregação 
+
+```
+SELECT
+SKU
+Quantidade_Vendida
+total_de_vendas
+
+  FROM 'projeto.JOIN.Vendas'
+order by Quantidade_Vendida 
+```
+
+```
+SELECT
+SKU
+Quantidade_Vendida
+total_de_vendas
+
+  FROM 'projeto.JOIN.Vendas'
+order by total_de_vendas
+-- DESC 
+```
+
+```
+SELECT
+format_timestamp("%Y", Data_devolucao) as Ano_devolucao,
+COUNT (Quantidade_Devolvida) as Devoluções
+
+FROM "projeto.JOIN.Devolucao"
+GROUP BY Ano_devolucao
+ORDER BY Ano_devolucao
+```
+
+#### Funções Operacionais
