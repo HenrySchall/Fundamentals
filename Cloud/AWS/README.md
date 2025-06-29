@@ -5,6 +5,7 @@
 ### Principais Produtos 
 - Redshift
 - Glue
+- S3
 - SageMaker
 - Quicksight
 - Bedrock
