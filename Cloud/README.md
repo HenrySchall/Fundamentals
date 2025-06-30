@@ -20,3 +20,7 @@
 - DevOps (Development + Operations) -> Conjunto de práticas para integrar desenvolvimento de software (Dev) com operações/infraestrutura (Ops). Exemplos: Docker, Kubernetes, GitLab CI/CD
 
 - RevOps -> Maximizar e acelerar a geração de receita da empresa, criando processos mais previsíveis, eficientes e baseados em dados. Exemplos: Salesforce, HubSpot
+
+- https://www.coursera.org/specializations/aws-fundamentals (Amazon AWS) 
+- https://www.coursera.org/specializations/cloud-computing
+- https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect
