@@ -24,3 +24,9 @@
 - https://www.coursera.org/specializations/aws-fundamentals (Amazon AWS) 
 - https://www.coursera.org/specializations/cloud-computing
 - https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect
+
+- https://cloud.google.com/learn/certification/generative-ai-leader
+- https://cloud.google.com/learn/certification/machine-learning-engineer?hl=pt-br
+- https://www.databricks.com/learn/certification/machine-learning-professional
+- https://www.databricks.com/learn/certification/genai-engineer-associate 
+- https://www.coursera.org/professional-certificates/preparing-for-google-cloud-machine-learning-engineer-professional-certificate
