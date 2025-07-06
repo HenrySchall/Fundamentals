@@ -32,7 +32,3 @@
 
 ![Img.1](https://github.com/user-attachments/assets/7b4d3a0b-e7ce-483e-b283-279f09be574e)
 Fonte: Databricks
-
-
-  - Hadoop
-    - Flink
