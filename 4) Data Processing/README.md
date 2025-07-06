@@ -10,7 +10,7 @@
     - Google Big Query
     - Snowflake
     - AWS Redshift
-    - Azure Synapse
+    - Microsoft Azure Synapse
 
 - Big Data -> Conjuntos de dados massivamente grandes, complexos e que crescem em velocidade tão alta que os métodos tradicionais de processamento de dados não conseguem lidar com eles de forma eficiente.
   
