@@ -37,8 +37,6 @@
     - Databricks Lakehouse Platform
     - Amazon Redshift Spectrum + S3
     - Google BigLake
- 
-> Spark é uma plataforma de processamento de dados distribuída de open source, ou seja, um conjunto de ferramentas que permite coletar, armazenar, organizar, transformar e analisar dados. Ele foi projetado para facilitar o trabalho com grandes volumes de dados, permitindo eficiência e escalabilidade. Ele geralmente é a base de desenvolvimento de todos os Delta Lake. Além dele existem outras soluções como: Flink, Hadoop e o Dataflow.
 
 ![Img.1](https://github.com/user-attachments/assets/7b4d3a0b-e7ce-483e-b283-279f09be574e)
 Fonte: Databricks
@@ -47,3 +45,7 @@ Fonte: Databricks
 - Desacoplados -> os dados não ficam presos a um sistema proprietário específico, são salvos em formatos que podem ser lidos por várias ferramentas diferentes, 
 - Binários -> compactação dos dados
 - Particionados -> divididos em partes menores (partições) que ficam armazenadas em diferentes discos ou servidores, possibilitando a redundância (replicados em vários discos para evitar perda em caso de falha) e paralelismo (múltiplas operações de leitura e escrita ocorram ao mesmo tempo, em discos diferentes).
+
+### Spark 
+
+> Spark é uma plataforma de processamento de dados distribuída de open source, ou seja, um conjunto de ferramentas que permite coletar, armazenar, organizar, transformar e analisar dados. Ele foi projetado para facilitar o trabalho com grandes volumes de dados, permitindo eficiência e escalabilidade. Ele geralmente é a base de desenvolvimento de todos os Delta Lake. Além dele existem outras soluções como: Flink, Hadoop e o Dataflow.
