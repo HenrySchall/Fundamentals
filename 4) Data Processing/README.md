@@ -47,4 +47,4 @@ Observações:
 
 ### Spark 
 
-> Spark é uma plataforma de processamento de dados distribuída de open source, ou seja, um conjunto de ferramentas que permite coletar, armazenar, organizar, transformar e analisar dados. Ele foi projetado para facilitar o trabalho com grandes volumes de dados, permitindo eficiência e escalabilidade. Ele geralmente é a base de desenvolvimento de todos os Delta Lake. Além dele existem outras soluções como: Flink, Hadoop e o Dataflow.
+> Spark é uma solução de processamento de dados distribuída de open source, ou seja, um conjunto de ferramentas que permite coletar, armazenar, organizar, transformar e analisar dados. Ele foi projetado para facilitar o trabalho com grandes volumes de dados, permitindo eficiência e escalabilidade. Ele geralmente é a base de desenvolvimento de todos os Delta Lake. Além dele existem outras soluções como: Flink, Hadoop e o Dataflow.
