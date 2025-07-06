@@ -43,7 +43,7 @@ Observações:
 
 - Sistemas de Arquivos Distribuido -> armazenar e analisar os dados de maneira distribuída e paralela em um cluster de computadores (arquivos espalhados por vários computadores ou servidores), ou seja, divide-se os arquivos em blocos, distribuindo eles em todo o cluster, mas apresentando ao usuário como se fossem parte de um único sistema de arquivos unificado. Exemplos: S3, Google File System, GlusterFS, HDFS, Databricks File System.
 
-- Data Lakes modernos tendem a armazenar dados em formatos: Desacoplados (os dados não ficam presos a um sistema proprietário específico), Binários, Particionados (divididos em partes menores, que ficam armazenadas em diferentes discos ou servidores), possibilitando a redundância (replicar em vários discos) e paralelismo (múltiplas operações de leitura e escrita ao mesmo tempo).
+- Data Lakes modernos tendem a armazenar dados em formatos: Desacoplados, Compactados, Particionados, possibilitando a redundância (replicar em vários discos) e paralelismo (múltiplas operações de leitura e escrita ao mesmo tempo).
 
 ### Spark 
 
