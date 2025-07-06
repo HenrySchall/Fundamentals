@@ -1,4 +1,4 @@
-# Data Processing
+# Data Process
 
 > Processamento de dados é o conjunto de atividades que transforma dados brutos (informações soltas, sem estrutura ou significado imediato) em informações organizadas (relatórios, gráficos, análises)
 
