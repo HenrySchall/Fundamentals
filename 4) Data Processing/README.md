@@ -20,9 +20,9 @@
      
 > Em geral ORC é mais eficiente na criação (escrita) e na compressão e Parquet tem melhor performance na consulta (leitura). Lembrando que: Muito atributos e mais escrita = Bancos de dados orientados a linha (Row-oriented databases), ideal para sistemas transacionais (Databases) e menos atributos e mais leitura = Bancos de dados orientados a coluna (Column-oriented databases), ideal para sistemas análiticos (Data Warehouse).
 
-> Sistemas de Arquivos -> é uma maneira de organizar, armazenar e nomear dados em um dispositivo de armazenamento, como um disco rígido, SSD, cartão de memória ou pen drive.
+Sistemas de Arquivos -> é uma maneira de organizar, armazenar e nomear dados em um dispositivo de armazenamento, como um disco rígido, SSD, cartão de memória ou pen drive.
 
-> Sistemas de Arquivos Distribuido -> armazenar e analisar os dados de maneira distribuída e paralela em um cluster de computadores (arquivos espalhados por vários computadores ou servidores), ou seja, divide-se os arquivos em blocos, distribuindo eles em todo o cluster, mas apresentando ao usuário como se fossem parte de um único sistema de arquivos unificado. Exemplos: S3, Google File System, GlusterFS, HDFS, Databricks File System.
+Sistemas de Arquivos Distribuido -> armazenar e analisar os dados de maneira distribuída e paralela em um cluster de computadores (arquivos espalhados por vários computadores ou servidores), ou seja, divide-se os arquivos em blocos, distribuindo eles em todo o cluster, mas apresentando ao usuário como se fossem parte de um único sistema de arquivos unificado. Exemplos: S3, Google File System, GlusterFS, HDFS, Databricks File System.
   
 - Data Lake -> Armazena dados estruturados, semi-estruturados e não estruturados, ou seja. um repositório de qualquer tipo de dado. Exemplos:
     - AWS S3
