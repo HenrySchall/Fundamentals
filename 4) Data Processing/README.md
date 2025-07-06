@@ -41,7 +41,7 @@
 ![Img.1](https://github.com/user-attachments/assets/7b4d3a0b-e7ce-483e-b283-279f09be574e)
 Fonte: Databricks
 
-> Lembrando que Data Lakes modernos tendem a armazenar dados em formatos:
+Lembrando que Data Lakes modernos tendem a armazenar dados em formatos:
 - Desacoplados -> os dados não ficam presos a um sistema proprietário específico, são salvos em formatos que podem ser lidos por várias ferramentas diferentes, 
 - Binários -> compactação dos dados
 - Particionados -> divididos em partes menores (partições) que ficam armazenadas em diferentes discos ou servidores, possibilitando a redundância (replicados em vários discos para evitar perda em caso de falha) e paralelismo (múltiplas operações de leitura e escrita ocorram ao mesmo tempo, em discos diferentes).
