@@ -43,8 +43,8 @@ Observações:
 
 - Sistemas de Arquivos Distribuido -> armazenar e analisar os dados de maneira distribuída e paralela em um cluster de computadores (arquivos espalhados por vários computadores ou servidores), ou seja, divide-se os arquivos em blocos, distribuindo eles em todo o cluster, mas apresentando ao usuário como se fossem parte de um único sistema de arquivos unificado. Exemplos: S3, Google File System, GlusterFS, HDFS, Databricks File System.
 
-- Data Lakes modernos tendem a armazenar dados em formatos: Desacoplados, Compactados, Particionados, esse último possibilita a redundância (replicar em vários discos) e paralelismo (múltiplas operações de leitura e escrita ao mesmo tempo).
-
 ### Spark 
 
 > Spark é uma solução de processamento de dados distribuída open source, ou seja, um conjunto de ferramentas que permite coletar, armazenar, organizar, transformar e analisar dados. Ele foi projetado para facilitar o trabalho com grandes volumes de dados, permitindo eficiência e escalabilidade. Além dele existem outras soluções como: Flink, Hadoop e o Dataflow.
+
+- Data Lakes modernos tendem a armazenar dados em formatos: Desacoplados, Compactados, Particionados, esse último possibilita a redundância (replicar em vários discos) e paralelismo (múltiplas operações de leitura e escrita ao mesmo tempo).
