@@ -6,6 +6,7 @@
 # Fundamentals of Data Science
 
 ![Img](https://github.com/user-attachments/assets/af62f067-04ac-4a16-861e-7a00bb690283)
+![Screenshot_20250708_193349_Gallery](https://github.com/user-attachments/assets/0220fa53-5c88-4376-aacd-60e34c4ef56b)
 
 <!-- BADGES -->
 <img src="https://img.shields.io/github/license/HenrySchall/Artificial_Intelligence?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
