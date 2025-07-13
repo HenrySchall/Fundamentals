@@ -37,6 +37,8 @@
 ![Img.1](https://github.com/user-attachments/assets/7b4d3a0b-e7ce-483e-b283-279f09be574e)
 Fonte: Databricks
 
+Data Mesh, Data Fabric
+
 Observações: 
 
 - Sistemas de Arquivos -> é uma maneira de organizar, armazenar e nomear dados em um dispositivo de armazenamento, como um disco rígido, SSD, cartão de memória ou pen drive.
