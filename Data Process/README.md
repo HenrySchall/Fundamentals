@@ -27,6 +27,8 @@
     - Databricks Lakehouse
     - Hadoop Distributed File System
 
+- Data Swamp: É um data lake sem controle de qualidade e repleto de dados desorganizados e não-estruturados.
+
 - Delta Lake -> É uma tecnologia open source desenvolvida em cima de data lakes (normalmente desenvolvido em Spark) como uma camada complementar, responsável por executar o chamado armazenamento transacional. O armazenamento transacional é um sistema projetado para suportar transações ACID, dentro de um Data Lake, permitindo ler, transformar, limpar, analisar e armazenar dados de forma mais confiável e performática. Acontece que os data lakes eram rápidos para armazenar dados, mas difíceis de manter a qualidade, sendo assim essa solução combina a escalabilidade dos data lakes com a confiabilidade dos Data Warehouse, dando origem ao Data Lakehouse. Além dele existem outras soluções como: Apache Hudi e Apache Iceberg.
 
 - Data Lakehouse -> Data Warehouse + Data Lake
