@@ -4,22 +4,24 @@
 
 ![Img](https://github.com/user-attachments/assets/af62f067-04ac-4a16-861e-7a00bb690283)
 <!-- BADGES -->
-<img src="https://img.shields.io/github/license/HenrySchall/Artificial_Intelligence?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-<img src="https://img.shields.io/github/last-commit/HenrySchall/Artificial_Intelligence?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/HenrySchall/Artificial_Intelligence?style=flat&color=0080ff" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/HenrySchall/Artificial_Intelligence?style=flat&color=0080ff" alt="repo-language-count">
+<img src="https://img.shields.io/github/license/HenrySchall/Fundamentals?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+<img src="https://img.shields.io/github/last-commit/HenrySchall/Fundamentals?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/HenrySchall/Fundamentals?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/HenrySchall/Fundamentals?style=flat&color=0080ff" alt="repo-language-count">
 
 <em>Built with the tools and technologies:</em>
 
 <img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/R-276DC3?style?style=flat&logo=r&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Stata-30B5C8?style=flat&logoColor=white" alt="Python">
 
 </div>
 <br>
 
-> Inteligência Artificial (IA) é um campo da computação que desenvolve sistemas capazes de executar tarefas que normalmente exigiriam inteligência humana. Isso inclui aprendizagem, raciocínio, percepção, reconhecimento de padrões e tomada de decisão. Ela utiliza modelos matemáticos para analisar dados e aprender com eles. Os modelos existentes são:
+> A área de dados engloba um conjunto de disciplinas que trabalham desde a coleta, organização e armazenamento dos dados até a sua análise, modelagem e aplicação prática. Os profissionais que atuam nesse campo buscam transformar dados brutos em informações úteis, capazes de gerar vantagens competitivas, otimizar processos e criar novos produtos e serviços.
 
-### Modelos
+### Áreas de Atuação 
 
 * Data Science = extrai valor e conhecimento a partir de grandes volumes de dados usando estatística, programação, machine learning e conhecimento do negócio. Seu papel principal é transformar dados brutos em insights estratégicos ou soluções automatizadas, como modelos preditivos, sistemas de recomendação, segmentações
     
