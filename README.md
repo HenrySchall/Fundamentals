@@ -22,7 +22,7 @@
 ### Modelos
 
 * Data Science = extrai valor e conhecimento a partir de grandes volumes de dados usando estatística, programação, machine learning e conhecimento do negócio. Seu papel principal é transformar dados brutos em insights estratégicos ou soluções automatizadas, como modelos preditivos, sistemas de recomendação, segmentações
-
+    
 * Data Analyst =  coletar, organizar, interpretar e apresentar dados, com o objetivo de ajudar empresas a tomar decisões baseadas em evidências. Ele atua como um "tradutor entre os dados e o negócio", transformando números em insights claros e acionáveis.
 
 * Data Engineer = Construir, manter e otimizar a infraestrutura de dados de uma empresa. Ele garante que os dados estejam disponíveis, organizados, limpos e acessíveis para analistas, cientistas de dados, engenheiros de machine learning
