@@ -1,13 +1,8 @@
-<div id="top">
-
-<!-- HEADER STYLE: CLASSIC -->
-<div align="center">
-
 # Fundamentals of Data Science
 
-![Img](https://github.com/user-attachments/assets/af62f067-04ac-4a16-861e-7a00bb690283)
-![Screenshot_20250708_193349_Gallery](https://github.com/user-attachments/assets/0220fa53-5c88-4376-aacd-60e34c4ef56b)
+<div align="center">
 
+![Img](https://github.com/user-attachments/assets/af62f067-04ac-4a16-861e-7a00bb690283)
 <!-- BADGES -->
 <img src="https://img.shields.io/github/license/HenrySchall/Artificial_Intelligence?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 <img src="https://img.shields.io/github/last-commit/HenrySchall/Artificial_Intelligence?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
@@ -22,4 +17,5 @@
 </div>
 <br>
 --- 
+
 ### Bibliographic References:
