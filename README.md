@@ -15,6 +15,7 @@
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/R-276DC3?style?style=flat&logo=r&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/Stata-30B5C8?style=flat&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style?style=flat&logo=jupyter&logoColor=white" alt="Python">
 
 </div>
 <br>
