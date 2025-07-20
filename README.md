@@ -35,14 +35,16 @@
 ## Índice
 
 - [Math](https://github.com/HenrySchall/Fundamentals/tree/main/Math)
-    - []()
-    - []()
+    - [Statistical Inference](https://github.com/HenrySchall/Fundamentals/tree/main/Math/Statistical%20Inference)
+    - [Linear Algebra](https://github.com/HenrySchall/Fundamentals/tree/main/Math/Linear%20Algebra)
 - [Data Science](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Science)
-    - []()
-    - []()
+    - [Python](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Science/Python)
+    - [R](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Science/R)
+    - [Stata](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Science/Stata)
 - [Data Process](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Process)
-    - []()
-    - []()
+    - [Cloud](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Process/Cloud)
+    - [Databricks](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Process/Databricks)
+    - [MLFlow](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Process/MLflow)
 
 ---
 
