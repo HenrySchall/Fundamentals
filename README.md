@@ -52,4 +52,5 @@
 ---
 
 ## Bibliographic References:
-- 
+- https://visualgo.net/en
+- https://neetcode.io/courses
