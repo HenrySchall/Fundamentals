@@ -51,6 +51,6 @@
 
 ---
 
-## Bibliographic References:
+### Referências Bibliográficas:
 - https://visualgo.net/en
 - https://neetcode.io/courses
