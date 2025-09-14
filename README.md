@@ -54,3 +54,7 @@
 ### Referências Bibliográficas:
 - https://visualgo.net/en
 - https://neetcode.io/courses
+
+![1756281794385](https://github.com/user-attachments/assets/89138c5b-3825-4211-8548-ac9d22591c2b)
+
+
