@@ -226,3 +226,8 @@ df.to_csv("marketing_dataset_tratado.csv", index=False, encoding="utf-8")
 # from google.colab import files
 # df.to_excel('tratamento.xlsx', index=False)
 # files.download('tratamento.xlsx')
+
+
+import pandas as pd
+df = pd.read_csv("https://drive.google.com/uc?export=download&id=1fKv2Lp8gonKTbgeakjy9h0eI1BOyouBU")
+print(df.head())
