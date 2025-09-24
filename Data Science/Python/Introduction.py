@@ -39,8 +39,8 @@ from statsmodels.tools.tools import add_constant
 ### Análise Exploratória dos Dados ###
 ######################################
 
-df = pd.read_csv("https://drive.google.com/uc?export=download&id=1Xa631th1GeU4OVmGW33UckDWJgj5E8VL")
-df
+df = pd.read_csv("https:/drive.google.com/uc?export=download&id=1Xa631th1GeU4OVmGW33UckDWJgj5E8VL")
+df 
 
 df.describe()
 
