@@ -1,4 +1,4 @@
-# Fundamentals of Data Science
+# Fundamentals
 
 <div align="center">
 
