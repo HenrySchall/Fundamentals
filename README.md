@@ -47,3 +47,6 @@
   - [Math](https://github.com/HenrySchall/Fundamentals/tree/main/Python/Math)
   - [PySpark]()
 - MLOps
+  - []()
+- SQL
+  - []()
