@@ -170,6 +170,10 @@ Data Mesh, Data Fabric
 
 Observações: 
 
+IaaS
+PaaS
+SaaS
+
 - Sistemas de Arquivos -> é uma maneira de organizar, armazenar e nomear dados em um dispositivo de armazenamento, como um disco rígido, SSD, cartão de memória ou pen drive.
 
 - Sistemas de Arquivos Distribuido -> armazenar e analisar os dados de maneira distribuída e paralela em um cluster de computadores (arquivos espalhados por vários computadores ou servidores), ou seja, divide-se os arquivos em blocos, distribuindo eles em todo o cluster, mas apresentando ao usuário como se fossem parte de um único sistema de arquivos unificado. Exemplos: S3, Google File System, GlusterFS, HDFS, Databricks File System.
