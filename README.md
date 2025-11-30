@@ -35,6 +35,8 @@
 
 • Data Analyst —> Responsável por coletar, organizar, interpretar e comunicar dados com clareza, apoiando decisões baseadas em evidências. Atua como um elo entre os dados e o negócio, traduzindo números em insights objetivos, relatórios e visualizações compreensíveis.
 
+• Business Analyst —> Responsável por entender problemas do negócio, levantar necessidades e propor soluções que melhorem processos, produtos ou sistemas internos ou externos de uma organização. Ele atua como uma ponte entre áreas técnicas (ex.: TI, dados, operação) e áreas de negócio. 
+
 • Data Engineer —> Constrói, mantém e otimiza a infraestrutura de dados. Garante que as informações estejam disponíveis, organizadas, limpas e acessíveis.
 
 • Machine Learning Engineer —> Desenvolve, treina, testa, otimiza e coloca em produção modelos de machine learning. Atua na interseção entre ciência de dados e engenharia de software, garantindo que modelos sejam robustos, eficientes, escaláveis e prontos para uso em ambientes reais.
