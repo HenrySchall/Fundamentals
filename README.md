@@ -11,11 +11,20 @@
 
 <em>Built with the tools and technologies:</em>
 
-<img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/R-276DC3?style?style=flat&logo=r&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/Stata-30B5C8?style=flat&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style?style=flat&logo=jupyter&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Databricks-EF3E2B?style=flat&logo=databricks&logoColor=white" alt="Databricks">
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="Google Cloud">
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" alt="AWS">
+<img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" alt="Microsoft Azure">
+<img src="https://img.shields.io/badge/SQL-336791?style=flat&logoColor=white" alt="SQL">
+<img src="https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white" alt="PySpark">
+<img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white" alt="Airflow">
+<img src="https://img.shields.io/badge/Hadoop-FFCC00?style=flat&logo=apachehadoop&logoColor=black" alt="Hadoop">
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+
 
 </div>
 <br>
