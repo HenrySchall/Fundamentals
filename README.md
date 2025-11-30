@@ -3,6 +3,7 @@
 <div align="center">
 
 ![Img](https://github.com/user-attachments/assets/af62f067-04ac-4a16-861e-7a00bb690283)
+
 <!-- BADGES -->
 <img src="https://img.shields.io/github/license/HenrySchall/Fundamentals?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 <img src="https://img.shields.io/github/last-commit/HenrySchall/Fundamentals?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
@@ -23,35 +24,26 @@
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
 
-
 </div>
 <br>
 
-> A área de dados engloba um conjunto de disciplinas que trabalham desde a coleta, organização e armazenamento dos dados até a sua análise, modelagem e aplicação prática. Os profissionais que atuam nesse campo buscam transformar dados brutos em informações úteis, capazes de gerar vantagens competitivas, otimizar processos e criar novos produtos e serviços.
+> A Ciëncia de Dados reúne um conjunto de disciplinas que atuam desde a coleta, organização e armazenamento de dados até a sua análise, modelagem e aplicação prática. Os profissionais desse campo têm como objetivo transformar dados brutos em conhecimento acionável, capaz de gerar vantagens competitivas e otimizar processos e impulsionar
 
 ### Áreas de Atuação 
 
-* Data Science = extrai valor e conhecimento a partir de grandes volumes de dados usando estatística, programação, machine learning e conhecimento do negócio. Seu papel principal é transformar dados brutos em insights estratégicos ou soluções automatizadas, como modelos preditivos, sistemas de recomendação, segmentações
-    
-* Data Analyst =  coletar, organizar, interpretar e apresentar dados, com o objetivo de ajudar empresas a tomar decisões baseadas em evidências. Ele atua como um "tradutor entre os dados e o negócio", transformando números em insights claros e acionáveis.
+• Data Science —> Foca em extrair valor e conhecimento a partir de grandes volumes de dados por meio de modelos matmáticos. Seu papel central é transformar dados brutos em insights estratégicos e soluções inteligentes, como modelos preditivos, sistemas de recomendação e segmentações avançadas.
 
-* Data Engineer = Construir, manter e otimizar a infraestrutura de dados de uma empresa. Ele garante que os dados estejam disponíveis, organizados, limpos e acessíveis para analistas, cientistas de dados, engenheiros de machine learning
+• Data Analyst —> Responsável por coletar, organizar, interpretar e comunicar dados com clareza, apoiando decisões baseadas em evidências. Atua como um elo entre os dados e o negócio, traduzindo números em insights objetivos, relatórios e visualizações compreensíveis.
 
-* Machine Learning Engineer = desenvolver, treinar, testar, otimizar e colocar em produção modelos de machine learning (aprendizado de máquina) em escala. Ele atua na ponte entre ciência de dados e engenharia de software, garantindo que os modelos não apenas funcionem bem em notebooks de pesquisa, mas que também sejam robustos, escaláveis e usáveis em ambientes reais
+• Data Engineer —> Constrói, mantém e otimiza a infraestrutura de dados. Garante que as informações estejam disponíveis, organizadas, limpas e acessíveis.
 
-* AI Engineer = projeta, desenvolve, implementa e mantém sistemas de IA, combinando conhecimentos de machine learning, deep learning, engenharia de software, e às vezes até IA simbólica
-  
----
+• Machine Learning Engineer —> Desenvolve, treina, testa, otimiza e coloca em produção modelos de machine learning. Atua na interseção entre ciência de dados e engenharia de software, garantindo que modelos sejam robustos, eficientes, escaláveis e prontos para uso em ambientes reais.
+
+• AI Engineer —> Projeta, desenvolve, implementa e mantém sistemas inteligência artificial, por meio da combinação de conhecimentos de machine learning, deep learning e engenharia de software. Seu objetivo é criar soluções de IA aplicáveis, confiáveis e integradas ao ecossistema de negócio de uma empresa.
 ## Índice
 
-- [Math](https://github.com/HenrySchall/Fundamentals/tree/main/Math)
-- [Data Science](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Science)
-- [Data Process](https://github.com/HenrySchall/Fundamentals/tree/main/Data%20Process)
-
----
-
-### Referências Bibliográficas:
-- https://visualgo.net/en
-- https://neetcode.io/courses
-
-![1756281794385](https://github.com/user-attachments/assets/89138c5b-3825-4211-8548-ac9d22591c2b)
+- Python
+  - [Fundamentos](https://github.com/HenrySchall/Fundamentals/tree/main/Python/Fundamentus)
+  - [Math](https://github.com/HenrySchall/Fundamentals/tree/main/Python/Math)
+  - [PySpark]()
+- MLOps
