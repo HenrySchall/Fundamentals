@@ -88,3 +88,5 @@
 {"timestamp":"2025-12-01T03:23:59.834852Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-01T03:24:05.560602Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-01T03:24:10.814811Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:16.160982Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:21.762997Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
