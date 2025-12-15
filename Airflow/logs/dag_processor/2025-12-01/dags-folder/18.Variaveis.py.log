@@ -90,3 +90,11 @@
 {"timestamp":"2025-12-01T03:24:10.814811Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-01T03:24:16.160982Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-01T03:24:21.762997Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:28.334395Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:33.675348Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:39.081757Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:45.025488Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:50.477305Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:55.936885Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:25:01.777936Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:25:07.220645Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/18.Variaveis.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}

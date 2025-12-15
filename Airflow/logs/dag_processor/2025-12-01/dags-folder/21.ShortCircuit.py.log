@@ -91,3 +91,10 @@
 {"timestamp":"2025-12-01T03:24:15.981144Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-01T03:24:21.578183Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-01T03:24:27.366500Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:32.870967Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:38.719910Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:44.501854Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:50.195202Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:24:55.775683Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:25:01.447100Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T03:25:07.059521Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/21.ShortCircuit.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
