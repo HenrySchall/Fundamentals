@@ -27,7 +27,7 @@
 </div>
 <br>
 
-> A Ciëncia de Dados reúne um conjunto de disciplinas que atuam desde a coleta, organização e armazenamento de dados até a sua análise, modelagem e aplicação prática. Os profissionais desse campo têm como objetivo transformar dados brutos em conhecimento acionável, capaz de gerar vantagens competitivas e otimizar processos e impulsionar
+> A Ciência de Dados reúne um conjunto de disciplinas que atuam desde a coleta, organização e armazenamento de dados até a sua análise, modelagem e aplicação prática. Os profissionais desse campo têm como objetivo transformar dados brutos em conhecimento acionável, capaz de gerar vantagens competitivas e otimizar processos e impulsionar
 
 ### Áreas de Atuação 
 
